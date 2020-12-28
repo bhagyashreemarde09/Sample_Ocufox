@@ -1,0 +1,24 @@
+<button id="color">Click</button>
+
+<div id="pot">
+  <img src="https://image.shutterstock.com/image-photo/cardboard-box-isolated-on-white-260nw-114785188.jpg" width=100px height=100px>
+</div>
+
+<style>
+#pot {
+  bottom: 15%;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+}
+</style>
+
